@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-sizing: border-box;
+  }
+  body {
+      font-family: "Roboto", sans-serif;  
+   
+  }
+  
+  header, footer {
+      background-color: #1F2937;
+    
+  }
+  
+  .name {
+      font-size: 24px;
+      color: #F9FAF8;
+  }
+  
+  .header {
+       display: flex;
+    flex: 1;
+      justify-content: space-between;
+    padding: 20px;
+  }
+  
+  #nav-bar {
+     margin: 0, 10px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+  #nav-bar a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 50px;
+  }
+  
+  
+  .main-hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1F2937
+  }
+  
+  .main-text {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+  .main-text h1 {
+      font-size: 48px;
+      color: #f9faf8;
+      font-weight: 900;   
+  }
+  
+  .main-text p {
+      font-size: 18px;
+      color: #E5E7EB;
+  }
+  
+  
+  
+  .main-text a {
+     background-color: #3b82f6;
+      color: #fff;
+      border: none;
+      font-size: 1.1em;
+      cursor: pointer;
+      margin-top: 20px;
+      text-decoration: none;
+  }
+  
+  .placeholder-image {
+    height: auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    margin-left: 500px;
+    margin-right: 300px;
+  }
+  
+  .services {
+    text-align: center;
+    padding: 50px 20px;
+    
+  }
+  
+  .services h2 {
+      font-size: 36px;
+      color: #1F2937;
+      font-weight: 900;
+    margin-bottom: 40px;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  service {
+    text-align: center;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    border: 2px solid #3b82f6;
+    border-radius: 5px;
+    object-fit: fill;
+  }
+  
+  a {
+      color: #3882f6;
+  }
+  
+  .quote {
+      font-size: 36px;
+      font: light italic;
+      color: #1f2937;
+      background-color: #E5E7Eb;
+    text-align: center;
+  }
+  
+  .citation {
+    display: block;
+      margin-top: 20px;
+      font-size: 1.2em;
+  }
+  
+  .contact {
+    background-color: #3b82f6;
+      color: #fff;
+      text-align: center;
+      padding: 30px;
+  }
+  
+  .contact p {
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+  
+  .contact a {
+     background-color: #2563eb;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.1em;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+  }
